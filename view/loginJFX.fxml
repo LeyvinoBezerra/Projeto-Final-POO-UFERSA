@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="460.0" prefWidth="656.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controler.LoginControler">
+   <children>
+      <Button layoutX="302.0" layoutY="314.0" mnemonicParsing="false" onAction="#autenticar" text="ENTRAR" />
+      <Label layoutX="235.0" layoutY="188.0" text="Login" />
+      <Label layoutX="235.0" layoutY="230.0" text="Senha" />
+      <TextField layoutX="302.0" layoutY="184.0" />
+      <TextField fx:id="senha" layoutX="302.0" layoutY="226.0" />
+      <Button layoutX="385.0" layoutY="314.0" mnemonicParsing="false" text="CANCELAR" />
+      <Label layoutX="268.0" layoutY="106.0" text="Sistema Escolar" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

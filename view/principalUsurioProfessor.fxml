@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar fx:id="menuBarTelaPrincipal">
+        <menus>
+          <Menu fx:id="menuPrincipalCadastrar" mnemonicParsing="false" text="Cadastrar">
+            <items>
+              <MenuItem fx:id="menuItemCadastrarAluno" mnemonicParsing="false" text="Aluno" />
+                  <MenuItem fx:id="menuItemCadastrarProfessor" mnemonicParsing="false" text="Professor" />
+                  <MenuItem fx:id="menuItemCadastrarTurma" mnemonicParsing="false" text="Turma" />
+                  <MenuItem fx:id="menuItemCadastrarDisciplina" mnemonicParsing="false" text="Disciplina" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Buscar">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+          <Menu fx:id="menuPrincipalFinalizarDisciplina" mnemonicParsing="false" text="Finalizar Disciplina">
+            <items>
+              <MenuItem fx:id="menuItemFinalizarDisciplinaLancarNotas" mnemonicParsing="false" text="Lançar Notas" />
+                  <MenuItem fx:id="menuItemFinalizarDisciplinaFrequenciaAluno" mnemonicParsing="false" text="Frequência Do Aluno" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Ajuda">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="381.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="343.0" fitWidth="562.0" layoutX="77.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/BACHARELADO%20EM%20CIÊNCIA%20DA%20COMPUTAÇÃO-UFERSA/PERIODO-2018.1/PROGRAMAÇÃO%20ORIETADA%20A%20OBJETO/Trabalho%20Final%20-%20POO/imagens/imagemUsuarioProfessor.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</VBox>

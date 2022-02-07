@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxWidth="-Infinity" prefHeight="261.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-112.0" layoutY="-63.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="150.0" layoutY="169.0" text="ENDEREÇO" />
+            <Label layoutX="153.0" layoutY="132.0" text="NOME" />
+         </children>
+      </AnchorPane>
+      <TextField layoutX="117.0" layoutY="67.0" prefHeight="25.0" prefWidth="368.0" />
+      <TextField layoutX="117.0" layoutY="104.0" prefHeight="25.0" prefWidth="260.0" />
+      <Label layoutX="389.0" layoutY="108.0" text="CIDADE" />
+      <TextField layoutX="437.0" layoutY="104.0" prefHeight="25.0" prefWidth="121.0" />
+      <TextField layoutX="117.0" layoutY="142.0" prefHeight="25.0" prefWidth="260.0" />
+      <Label layoutX="38.0" layoutY="146.0" text="BAIRRO" />
+      <Label layoutX="389.0" layoutY="138.0" text="UF" />
+      <TextField layoutX="437.0" layoutY="134.0" prefHeight="25.0" prefWidth="121.0" />
+      <Button layoutX="117.0" layoutY="190.0" mnemonicParsing="false" text="SALVAR" />
+      <Button layoutX="201.0" layoutY="190.0" mnemonicParsing="false" text="CANCELAR" />
+      <Label layoutX="186.0" layoutY="14.0" text="Cadastro Professor:" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

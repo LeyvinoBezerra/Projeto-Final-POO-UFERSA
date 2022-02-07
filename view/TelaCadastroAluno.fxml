@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxWidth="-Infinity" prefHeight="261.0" prefWidth="563.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <AnchorPane layoutX="-112.0" layoutY="-63.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="150.0" layoutY="100.0" text="MATRICULA" />
+            <Label layoutX="150.0" layoutY="139.0" text="RG" />
+            <Label layoutX="150.0" layoutY="169.0" text="ENDEREÇO" />
+         </children>
+      </AnchorPane>
+      <TextField layoutX="117.0" layoutY="37.0" prefHeight="25.0" prefWidth="121.0" />
+      <TextField layoutX="298.0" layoutY="37.0" prefHeight="25.0" prefWidth="223.0" />
+      <Label layoutX="260.0" layoutY="41.0" text="NOME" />
+      <TextField layoutX="117.0" layoutY="72.0" prefHeight="25.0" prefWidth="121.0" />
+      <TextField layoutX="117.0" layoutY="104.0" prefHeight="25.0" prefWidth="260.0" />
+      <Label layoutX="389.0" layoutY="108.0" text="CIDADE" />
+      <TextField layoutX="437.0" layoutY="104.0" prefHeight="25.0" prefWidth="121.0" />
+      <TextField layoutX="117.0" layoutY="142.0" prefHeight="25.0" prefWidth="260.0" />
+      <Label layoutX="38.0" layoutY="146.0" text="BAIRRO" />
+      <Label layoutX="389.0" layoutY="138.0" text="UF" />
+      <TextField layoutX="437.0" layoutY="134.0" prefHeight="25.0" prefWidth="121.0" />
+      <Button layoutX="117.0" layoutY="190.0" mnemonicParsing="false" text="SALVAR" />
+      <Button layoutX="201.0" layoutY="190.0" mnemonicParsing="false" text="CANCELAR" />
+   </children>
+</AnchorPane>

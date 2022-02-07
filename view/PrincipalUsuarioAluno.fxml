@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar fx:id="menuBarTelaPrincipal">
+        <menus>
+          <Menu fx:id="menuPrincipalCadastrar" mnemonicParsing="false" text="Turma" />
+          <Menu fx:id="menuPrincipalFinalizarDisciplina" mnemonicParsing="false" text="Notas e frequência " />
+          <Menu mnemonicParsing="false" text="Ajuda">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="381.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="331.0" fitWidth="401.0" layoutX="125.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/BACHARELADO%20EM%20CIÊNCIA%20DA%20COMPUTAÇÃO-UFERSA/PERIODO-2018.1/PROGRAMAÇÃO%20ORIETADA%20A%20OBJETO/Trabalho%20Final%20-%20POO/imagens/imagemUsuarioAluno.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</VBox>
