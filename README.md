@@ -45,4 +45,4 @@ Para executar o projeto, siga os passos abaixo:
 - Scene Builder para criação das interfaces FXML
 
 ## Contribuições
-Este projeto foi desenvolvido pelos alunos Savio Allan e Leyvino Bezerra durante o curso de Programação Orientada a Objetos na UFERSA, sob orientação do Prof. Dr. Gabriel Gadelha.
+Este projeto foi desenvolvido pelos alunos Savio Allan e Leyvino Bezerra durante a disciplina de Programação Orientada a Objetos na UFERSA, sob orientação do Prof. Dr. Gabriel Gadelha.
