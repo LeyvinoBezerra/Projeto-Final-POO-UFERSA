@@ -5,8 +5,6 @@
 ### Professor: Dr. Prof. Gabriel Gadelha
 ### Autores: Savio Allan, Leyvino Bezerra
 
-<p align="center">
-<img src="https://www.ufersa.edu.br/images/logo_ufersa.png" alt="UFERSA Logo" width="200"></p>
 
 ### Universidade Federal Rural do Semi-Àrido - UFERSA
 ### MOSSORÓ - RN
